@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7498ce;
+}
+
+.hidden{
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+    border: solid 1px grey;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.container h1{
+  color: #229;
+  padding-bottom: 20px;
+}
+
+.meuInput{
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.botao{
+  padding: 6px;
+  background-color: #7498ce;
+  border: solid 1px #ffffffec;
+  border-radius: 2px;
+}
+
+.botao:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 5px 1px rgba(101, 92, 177, 0.534);
+}
