@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container" id="principal">
         <h1>Consultar CEP</h1>
         <div>
             <input class="meuInput" type="text" id="inputCep" placeholder="Digite o CEP" min="8" maxlength="8">
@@ -18,10 +18,11 @@
 
     <div id="retorno" class="hidden">
         <h2>Dados Retornados</h2>
-        <p>CEP:</p><span id="cep"></span>
-        <p>Logradouro:</p><span id="logradouro"></span>
-        <p>Bairro:</p><span id="bairro"></span>
-        <p>Cidade/UF:</p><span id="cidade"></span>
+        <p>CEP</p><span id="cep"></span>
+        <p>Logradouro</p><span id="logradouro"></span>
+        <p>Bairro</p><span id="bairro"></span>
+        <p>Cidade/UF</p><span id="cidade"></span>
+        <button id="voltar" class="back" onclick="voltar()">Buscar outro</button>
     </div>
 
     <script src="assets/js/buscaCep.js"></script>

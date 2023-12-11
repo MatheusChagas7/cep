@@ -16,6 +16,7 @@ body{
     display: none;
 }
 
+/* INÍCIO CSS DO CONTAINER PRINCIPAL */
 .container{
     display: flex;
     flex-direction: column;
@@ -49,3 +50,34 @@ body{
     transform: scale(0.98);
     box-shadow: 3px 2px 5px 1px rgba(101, 92, 177, 0.534);
 }
+
+/* FIM CSS DO CONTAINER PRINCIPAL */
+
+/* INÍCIO CSS DO RETORNO */
+
+.dados{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+}
+
+.dados p{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.back{
+  padding: 5px;
+  background-color: #7498ce;
+  border: solid 1px #ffffffec;
+  border-radius: 2px;
+}
+
+
+/* FIM CSS DO RETORNO */
+
+
