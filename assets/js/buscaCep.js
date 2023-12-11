@@ -31,7 +31,7 @@ function buscaCep(){
             }
         })
         .catch(error => {
-            console.error('Errou ao buscar CEP', error);
+            console.error('Erro ao buscar CEP', error);
             alert('Ocorreu um erro ao consultar o CEP. Tente novamente!')
         });
 
