@@ -23,8 +23,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 250px;
-    width: 400px;
+    height: 400px;
+    width: 650px;
     border: solid 1px grey;
     border-radius: 20px;
     background-color: #fff;
@@ -62,8 +62,8 @@ body{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 400px;
-  width: 300px;
+  height: 600px;
+  width: 500px;
   background-color: #fff;
   border-radius: 20px;
   border: solid 1px #dbd3d3;
@@ -75,7 +75,7 @@ body{
 }
 
 .back{
-  padding: 5px;
+  padding: 10px 30px;
   color: #fff;
   background-color: #7498ce;
   border: solid 1px #ffffffec;
