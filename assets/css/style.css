@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -42,6 +42,7 @@ body{
 
 .botao{
   padding: 6px;
+  color: #fff;
   background-color: #7498ce;
   border: solid 1px #ffffffec;
   border-radius: 2px;
@@ -75,6 +76,7 @@ body{
 
 .back{
   padding: 5px;
+  color: #fff;
   background-color: #7498ce;
   border: solid 1px #ffffffec;
   border-radius: 2px;
